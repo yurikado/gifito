@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(150deg, #581CE7,#E065E0);
+    height: 100vh;
+}
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    background-color:white;
+    border-radius: 10px;
+    margin-top: 20px; /* Añade un margen superior para separar del toggle */
+}
+
+.formulario h1{
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;/*espacio entre los label*/
+}
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/*los textos del label entran dentro de la caja de texto */
+.username label{
+    position: absolute;/*el <label> se puede posicionar en cualquier parte del contenedor utilizando las propiedades*/
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY (-50%);/*el texto al 50% del espacio hacia arriba*/
+    font-size: 16px;
+    pointer-events: none; /*el label no recibira eventos del click*/
+}
+form .contrasena{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;/*espacio entre los label*/
+}
+.contrasena input{
+    width: 100%;
+    padding: 0 40px 0 5px; /* Espacio a la izquierda para el ícono del ojo */
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+/*los textos del label entran dentro de la caja de texto */
+.contrasena label{
+    position: absolute;/*el <label> se puede posicionar en cualquier parte del contenedor utilizando las propiedades*/
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY (-50%);/*el texto al 50% del espacio hacia arriba*/
+    font-size: 16px;
+    pointer-events: none; /*el label no recibira eventos del click*/
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #adadad;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    background: #7c50a2;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;/*manito cursor*/
+    margin: 30px 0;/*espacio entre los label*/
+}
+
+

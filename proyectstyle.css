@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(150deg, #581CE7,#E065E0);
+    height: 100vh;
+}
+
+.header {
+    width: 240px; 
+    height: 80px; 
+    background-color: #f0f0f0; 
+    border: 2px solid #ccc;
+    border-radius: 8px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; /* Centra horizontalmente los elementos */
+    justify-content: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px; 
+}
+
+.header h1 {
+    margin: 0; 
+}
+
+.header h2 {
+    margin: 5px 0 0 0; 
+}
+
+.box-buscador {
+    width: 90%; 
+    height: 80px;
+    background-color: #f0f0f0; 
+    border: 2px solid #b55ca3;
+    border-radius: 8px; 
+    margin: 20px;
+}
+
+.buscador {
+    top: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio entre el buscador y el botón */
+}
+
+.buscador label {
+    align-items: center;
+    margin-right:5px; /* Espacio entre el label y el input */
+}
+
+.buscador input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    background-color: #e0e0e0; /* Fondo gris claro */
+    color: #333; /* Color del texto */
+    outline: none; /* Elimina el borde de enfoque */
+}
+
+.cont1{
+    width: 95%; 
+    height: 80px;
+    background-color: #f0f0f0; 
+    border: 2px solid #b55ca3;
+    border-radius: 8px; 
+    margin: 20px;
+}
+
+.cont2{
+    width: 95%; 
+    height: 80px;
+    background-color: #f0f0f0; 
+    border: 2px solid #b55ca3;
+    border-radius: 8px; 
+    margin: 20px;
+}
+
+
+
